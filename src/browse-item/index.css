@@ -1,0 +1,63 @@
+.list-item {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  margin-left: 15px;
+}
+
+.history-time {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 800;
+}
+
+.history-detail-card {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.domain-main {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.log-url {
+  height: 25px;
+  width: 25px;
+}
+
+.domain-card {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 500;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  height: 22px;
+  width: 22px;
+}

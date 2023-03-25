@@ -1,0 +1,174 @@
+.bg-Container {
+  background-color: #ececec;
+  min-height: 100vh;
+  background-size: cover;
+  padding-bottom: 4px;
+}
+
+.header-card {
+  height: 10vh;
+  width: 100%;
+  background-color: #3367d6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  width: 8%;
+  height: 28%;
+}
+
+.input-card {
+  background-color: #2850a7;
+  border: 0.5px solid #f8fafc;
+  border-radius: 3px;
+  width: 40%;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-card {
+  height: 30px;
+  width: 10%;
+  border-right: 0.5px solid #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-image {
+  height: 25px;
+  width: 25px;
+}
+
+.input-el {
+  width: 90%;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.list-container {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 80%;
+  margin: auto;
+  border: none;
+  border-radius: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.no-history-para {
+  min-height: 90vh;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .logo-image {
+    width: 10%;
+    height: 25%;
+  }
+
+  .input-card {
+    width: 60%;
+  }
+
+  .search-card {
+    width: 15%;
+  }
+
+  .input-el {
+    width: 85%;
+    font-size: 12px;
+  }
+
+  .list-container {
+    width: 95%;
+  }
+
+  .no-history-para {
+    font-size: 18px;
+  }
+
+  .list-item {
+    width: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .history-time {
+    font-size: 12px;
+  }
+
+  .domain-main {
+    width: 60%;
+  }
+
+  .log-url {
+    height: 20px;
+    width: 20px;
+  }
+
+  .domain-card {
+    width: 70%;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 12px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+
+  .domain-url {
+    font-size: 12px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+
+  .delete-icon {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .input-el {
+    font-size: 14px;
+  }
+
+  .no-history-para {
+    font-size: 20px;
+  }
+
+  .history-time {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .domain-url {
+    font-size: 15px;
+  }
+}
